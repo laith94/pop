@@ -24,30 +24,49 @@
     <link rel="stylesheet" href="cssn/jquery.scrollbar.css">
     <link rel="stylesheet" href="cssn/fancybox.min.css">
     <link rel="stylesheet" href="cssn/swiper.min.css">
-
     <link rel="stylesheet" href="cssn/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      header{background-color: white;}
+      .form-group{color: #000;}
+     
+    </style>
     
   </head>
   <body>
-  
-  <!-- ******************* -->
-    <div class="site-logo">
-      <h1 class="hh">مواقع بغداد الأثرية</h1>
-    </div>
     
-  </header> 
-  
+    <!-- ******************* -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+      <div class="container d-flex align-items-center">
+        <a id="nosh" class="navbar-brand" href="mosh.html">موقع معالم بغداد الأثرية</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link pl-0">الرئيسة</a></li>
+            <li class="nav-item"><a href="Un1.html" class="nav-link">الاثار<a></li>
+            <li class="nav-item"><a href="had2.html" class="nav-link">المعالم</a></li>
+            <li class="nav-item"><a href="non3.html" class="nav-link">الحضارة</a></li>
+            <li class="nav-item"><a href="aswa4.html" class="nav-link">اسواق</a></li>
+            <li class="nav-item"><a href="xc5.html" class="nav-link">المناطق</a></li>
+            <li class="nav-item"><a target="_blank" href="login.html" class="nav-link">تسجيل</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    
 
   <main class="main-content">
     <div class="container-fluid photos">
       <div class="row justify-content-center">
         
         <div class="col-md-6 pt-4"  data-aos="fade-up">
-          <h2 class="text-white mb-4">تسجيل الدخول </h2>
+          <h1 class="mb-22" style="color: rgb(10, 10, 10); font-size: 29px; font-family: 'Rakkas';">تسجيل الدخول </h1>
 
           <div class="row">
             <div class="col-md-12">
-                <p class="mb-5" style="color: #d1cfcd; font-size: 24px; font-family: 'Rakkas';">تواصل مع  الأصدقاء والعالم من حولك على مشاهدة الصور والتحديثات من خلال التسجيل في الجدول الزمني. شاهد الجديد في حياتك وفقًا لجدولك. هل تبحث عن الآثار القديمة في بغداد</p>
+                <p class="mb-5" style="color: #616060; font-size: 18px;">تواصل مع  الأصدقاء والعالم من حولك على مشاهدة الصور والتحديثات من خلال التسجيل في الجدول الزمني. شاهد الجديد في حياتك وفقًا لجدولك. هل تبحث عن الآثار القديمة في بغداد</p>
               
 
               <div class="row">
@@ -61,19 +80,16 @@
 
                     <div class="row form-group mb-5">
                       <div class="col-md-6 mb-3 mb-md-0">
-                        <label class="text-white" for="fname">اسم الأول</label>
-                        <input type="text" id="fname" class="form-control">
+                        <input type="text" id="fname" class="form-control" placeholder="أسم الأول">
                       </div>
                       <div class="col-md-6">
-                        <label class="text-white" for="lname">اسم العائلة</label>
-                        <input type="text" id="lname" class="form-control">
+                        <input type="text" id="lname" class="form-control" placeholder="أسم العائلة">
                       </div>
                     </div>
 
                     <div class="row form-group mb-5">
                       
-                      <div class="col-md-12">
-                        <label class="text-white" for="email">البريد الألكتروني</label> 
+                      <div class="col-md-12"> 
                         <input type="email" id="email" class="form-control"  placeholder="أدخل عنوان البريد الالكتروني">
                       </div>
                     </div>
@@ -81,14 +97,12 @@
                     <div class="row form-group mb-5">
                       
                       <div class="col-md-12">
-                        <label class="text-white" for="password">كلمة السر</label> 
                         <input type="password" id="password" class="form-control" placeholder="كلمة السر جديدة">
                       </div>
                     </div>
 
                     <div class="row form-group mb-5">
-                      <div class="col-md-12">
-                        <label class="text-white" for="message">رســــالة</label> 
+                      <div class="col-md-12"> 
                         <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder=" اكتب ملاحظاتك أو أسئلتك هنا ...."></textarea>
                       </div>
                     </div>
@@ -113,7 +127,7 @@
       <div class="row justify-content-center">
         <div class="col-md-12 text-center py-5">
      
-          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          <p style="color: #000;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             شكرا &copy;<script>document.write(new Date().getFullYear());</script> لسيادتكم مقدما | على الوقت الذي ستقضوا  <i class="icon-heart" aria-hidden="true"></i> في تصفح <a href="index.html" target="_blank">موقعنا</a>
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         </div>
